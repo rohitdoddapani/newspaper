@@ -1,38 +1,143 @@
-.App {
+.body{
+  background-color: grey;
+}
+article {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  margin-top: 12px;
+  border: 2px solid lightsalmon;
+  padding: 5px;
+}
+.heading{
+  height: 178px;
+  background-color: #fedd02;
+  text-align: center;
+  font-size: 120px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.heading1{
+  height: 150px;
+  background-color:orange;
+  padding: 5px;
+}
+.heading2{
+  height: 150px;
+  background-color:#f1415f;
+  padding: 5px;
+}
+.image{
+  margin-left: 20px;
+  margin-right: 20px
+}
+.four1{
+  background-color: lightcyan;
+  height: auto;
+  border: 3px solid white;
+}
+.four1 img{
+  max-height: 180px;
+  height: 120px;
+}
+.four2
+{
+  background-color: lavender;
+  height: auto;
+  border: 3px solid white;
+}
+.four2 img{
+  max-height: 180px;
+  height: 120px;
+}
+.four3{
+  background-color: rgb(240, 247, 184);
+  height: auto;
+  border: 3px solid white;
+}
+.four3 img{
+  max-height: 180px;
+    height: 120px;
+}
+.four4{
+  background-color: rgb(255, 224, 246);
+  height: auto;
+  border: 3px solid white;
+}
+.four4 img{
+  max-height: 180px;
+    height: 120px;
+}
+.sahgt{
+  padding-bottom: 100%;
+  margin-bottom: -100%;
+}
+.two-heading{
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+}
+.two1{
+  height: auto;
+}
+.two2{
+  height: auto;
+  border: 2px solid #dee434;
+}
+.frit{
+  float: right;
+  color: #127eda;
+}
+.third1{
+  background-color:lightseagreen;
+  border: 2px solid white;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.third2{
+  background-color:lightslategray;
+  border: 2px solid white;
+  text-align: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.backp{
+  background-color: #b30f0f;
+  padding: 6px;
+  text-align: center;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.backp p{
+  margin-bottom: 1px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bgblack{
+  background: black;
+  color: white;
+  padding: 8px;
+  text-align: center;
+}
+.five1{
+  text-align: center;
+  background-color: blanchedalmond;
+  padding-top: 10px;
+  height: 650px;
+}
+.mt-0{
+  margin-top: 0;
+}
+.hiddenNews{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.548);
+  position: fixed;
+  z-index: 5;
+  margin-top: -443px;
+  margin-left: -14px;
+}
+.model{
+  width: 80%;
+  height: 600px;
+  padding-bottom: 2vh;
+  background-color: white;
+  margin-left: 10%;
+  margin-top: 1%;
+  border-radius: 10px;
+  overflow-y: scroll;
 }
